@@ -1,0 +1,29 @@
+{
+  "name": "instagif",
+  "version": "0.0.0",
+  "description": "Gif maker for instagram",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiago-grau/instagif"
+  },
+  "keywords": [
+    "instagif",
+    "gif",
+    "instagram"
+  ],
+  "author": "santi grau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santiago-grau/instagif/issues"
+  },
+  "dependencies": {
+    "express": "~4.5.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
