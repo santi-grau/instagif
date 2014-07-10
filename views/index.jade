@@ -1,0 +1,28 @@
+doctype
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title INSTAGIF
+    meta(name='description', content='Gif maker for Instagram!')
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    div(id="innerContainer")
+      div(id="welcome")
+      div(id="select")
+        div(class="imfile")
+          div
+          div
+          input(type="file", name="i1", class="imgUpload")
+          p SELECT <br>1<sup>ST</sup> IMAGE
+        div(class="imfile")
+          div
+          div
+          input(type="file", name="i2", class="imgUpload")
+          p SELECT <br>2<sup>ND</sup> IMAGE
+      div(id="export")
+        div(id="preview")
+        p EXPORT THIS FUCKER
+        a(href="javascript:void(0)", id="backbut") <- back
+    script(data-main="/js/main", src="js/require.js")
