@@ -15,7 +15,6 @@ body #innerContainer {
   position: absolute;
   top: 0;
   left: 0;
-  background: #ccc;
   -webkit-transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
   -o-transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -43,6 +42,9 @@ body #innerContainer > div {
 }
 body #innerContainer > div#welcome {
   left: 0;
+}
+body #innerContainer > div#welcome #logoholder {
+  display: none;
 }
 body #innerContainer > div#select {
   left: 100%;
