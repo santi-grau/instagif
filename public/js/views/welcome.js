@@ -176,7 +176,7 @@ define(
 				this.twoLoading.on('finished', this.navigate)
 			},
 			navigate: function(){
-				//window.app.model.set('screen', 'select');
+				window.app.model.set('screen', 'select');
 			},
 			blink: function(time){
 				if(!this.blinking) {
