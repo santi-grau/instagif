@@ -42,9 +42,13 @@ body #innerContainer > div {
 }
 body #innerContainer > div#welcome {
   left: 0;
+  backgrond-color: #fff;
 }
 body #innerContainer > div#welcome #logoholder {
   display: none;
+}
+body #innerContainer > div#welcome.blink {
+  backgrond-color: #000;
 }
 body #innerContainer > div#select {
   left: 100%;

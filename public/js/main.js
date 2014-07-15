@@ -11,6 +11,9 @@ require.config({
 		underscore: {
 			exports: '_'
 		},
+		tween: {
+			exports: 'Tween'
+		},
 		backbone: {
 			deps: [
 				'underscore',
@@ -27,6 +30,7 @@ require.config({
 		}
 	},
 	paths: {
+		tween: 'lib/tween',
 		jquery: 'lib/jquery',
 		underscore: 'lib/underscore',
 		backbone: 'lib/backbone',
