@@ -132,8 +132,8 @@ define(
 				}
 			},
 			finished: function(){
-				//this.trigger('finished');
-				//this.two.pause();
+				this.trigger('finished');
+				this.two.pause();
 			},
 			resize: function(){
 				var cx = this.two.width / 2;
